@@ -13,6 +13,8 @@
 		588BF4E1202B5BD5004DCD70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588BF4E0202B5BD5004DCD70 /* Assets.xcassets */; };
 		588BF4E4202B5BD5004DCD70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588BF4E2202B5BD5004DCD70 /* LaunchScreen.storyboard */; };
 		588BF4E7202B5BD5004DCD70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 588BF4E6202B5BD5004DCD70 /* main.m */; };
+		588BF4EF202B61EA004DCD70 /* MyColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 588BF4EE202B61EA004DCD70 /* MyColor.m */; };
+		588BF4F2202B62AD004DCD70 /* ModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 588BF4F1202B62AD004DCD70 /* ModelManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		588BF4E3202B5BD5004DCD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		588BF4E5202B5BD5004DCD70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		588BF4E6202B5BD5004DCD70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		588BF4ED202B61EA004DCD70 /* MyColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyColor.h; sourceTree = "<group>"; };
+		588BF4EE202B61EA004DCD70 /* MyColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyColor.m; sourceTree = "<group>"; };
+		588BF4F0202B62AD004DCD70 /* ModelManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelManager.h; sourceTree = "<group>"; };
+		588BF4F1202B62AD004DCD70 /* ModelManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				588BF4D8202B5BD5004DCD70 /* AppDelegate.m */,
 				588BF4DA202B5BD5004DCD70 /* ViewController.h */,
 				588BF4DB202B5BD5004DCD70 /* ViewController.m */,
+				588BF4ED202B61EA004DCD70 /* MyColor.h */,
+				588BF4EE202B61EA004DCD70 /* MyColor.m */,
+				588BF4F0202B62AD004DCD70 /* ModelManager.h */,
+				588BF4F1202B62AD004DCD70 /* ModelManager.m */,
 				588BF4DD202B5BD5004DCD70 /* Main.storyboard */,
 				588BF4E0202B5BD5004DCD70 /* Assets.xcassets */,
 				588BF4E2202B5BD5004DCD70 /* LaunchScreen.storyboard */,
@@ -143,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				588BF4DC202B5BD5004DCD70 /* ViewController.m in Sources */,
+				588BF4EF202B61EA004DCD70 /* MyColor.m in Sources */,
 				588BF4E7202B5BD5004DCD70 /* main.m in Sources */,
+				588BF4F2202B62AD004DCD70 /* ModelManager.m in Sources */,
 				588BF4D9202B5BD5004DCD70 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
