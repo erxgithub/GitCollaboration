@@ -8,6 +8,7 @@
 
 #import "MyTableViewController.h"
 #import "MyTableViewCell.h"
+#import "ModelManager.h"
 
 @interface MyTableViewController ()
 
@@ -24,6 +25,8 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    ModelManager *modelManager = [[ModelManager alloc] init];
 }
 
 - (void)didReceiveMemoryWarning {
